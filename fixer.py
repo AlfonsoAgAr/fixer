@@ -60,7 +60,11 @@ class KeySpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        return old_code_line
+        pattern = r":(?=\S)"
+
+        replacement = r": "
+
+        return re.sub(pattern, replacement, old_code_line)
 
 
 class ArrayBracketSpacingRule(LintRule):
@@ -68,6 +72,8 @@ class ArrayBracketSpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
+
+        # return old_code_line.replace('[', '[ ').replace(']', ' ]')
         return old_code_line
 
 
@@ -76,6 +82,9 @@ class LinesAroundComment(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
+        if old_code_line.strip().startswith("//"):
+            return "\n" + old_code_line
+
         return old_code_line
 
 
@@ -216,7 +225,7 @@ class Fixer:
 
         FixerLogger.info(f"Se modifica el siguiente archivo: '{file_to_modify}'")
 
-        with open(file_to_modify, "r") as old_file:
+        with open(file_to_modify, self.readMode) as old_file:
             file_lines: List[str] = old_file.readlines()
         
         file_lines: List[str] = [line.rstrip() for line in file_lines]
@@ -236,7 +245,7 @@ class Fixer:
 
         formatted_new_code: List[str] = [line + "\n" for line in file_lines]
 
-        with open(file_to_modify, "w") as new_file:
+        with open(file_to_modify, self.writeMode) as new_file:
             new_file.writelines(formatted_new_code)
         
         message =f"""
@@ -254,6 +263,7 @@ class Fixer:
 
         for file_to_modify, rules_to_apply in error_map.items():
             self.__fix_by_file(file_to_modify, rules_to_apply)
+
         return
 
 FixerLogger.set_logger()
@@ -292,5 +302,3 @@ if args.filename:
 
 else:
     FixerLogger.error("No se proporcionó un archivo de log. Por favor, use la opción -f para especificar el archivo.")
-
-
