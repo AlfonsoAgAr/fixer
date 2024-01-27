@@ -72,8 +72,11 @@ class ArrayBracketSpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        pattern = r
-        return old_code_line.replace('[', '[ ').replace(']', ' ]')
+        pattern = r"\[\s*(.*?)\s*\]"
+
+        replacement = r"[ \1 ]"
+
+        return re.sub(pattern, replacement, old_code_line)
 
 class CommaSpacing(LintRule):
     def __init__(self, line: str):
