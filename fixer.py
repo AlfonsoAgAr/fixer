@@ -83,7 +83,12 @@ class CommaSpacing(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        return old_code_line.replace(',', ', ')
+        pattern = r"[,](\S)"
+
+        replacement = r", \1"
+
+        return re.sub(pattern, replacement, old_code_line)
+        
 
 class SingleQuote(LintRule):
     def __init__(self, line: str):
