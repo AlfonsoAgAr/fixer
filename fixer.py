@@ -72,9 +72,14 @@ class ArrayBracketSpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
+        return old_code_line.replace('[', '[ ').replace(']', ' ]')
 
-        # return old_code_line.replace('[', '[ ').replace(']', ' ]')
-        return old_code_line
+class CommaSpacing(LintRule):
+    def __init__(self, line: str):
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+        return old_code_line.replace(', ')
 
 
 class LinesAroundComment(LintRule):
@@ -102,7 +107,10 @@ class RulerFactory:
         "key-spacing": KeySpacingRule,
         "indent": IndentRule,
         "array-bracket-spacing": ArrayBracketSpacingRule,
-        "lines-around-comment": LinesAroundComment
+        "lines-around-comment": LinesAroundComment,
+        "comma-spacing": CommaSpacing,
+        "semi"; SemiColon,
+        "space-infix-ops", SpaceInfixOps
     }
 
 
