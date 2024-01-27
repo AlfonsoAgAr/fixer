@@ -72,6 +72,7 @@ class ArrayBracketSpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
+        pattern = r
         return old_code_line.replace('[', '[ ').replace(']', ' ]')
 
 class CommaSpacing(LintRule):
@@ -79,8 +80,33 @@ class CommaSpacing(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        return old_code_line.replace(', ')
+        return old_code_line.replace(',', ', ')
 
+class SingleQuote(LintRule):
+    def __init__(self, line: str):
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+        return old_code_line.replace('"', "'")
+
+class SemiColon(LintRule):
+    def __init__(self, line: str):
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+        return old_code_line + (';')
+
+
+class SpaceInfixOps(LintRule):
+    def __init__(self, line: str):
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+        pattern = r"\s*={1,}\s*"
+
+        replacement = r" = "
+
+        return re.sub(pattern, replacement, old_code_line)
 
 class LinesAroundComment(LintRule):
     def __init__(self, line: str):
@@ -109,8 +135,9 @@ class RulerFactory:
         "array-bracket-spacing": ArrayBracketSpacingRule,
         "lines-around-comment": LinesAroundComment,
         "comma-spacing": CommaSpacing,
-        "semi"; SemiColon,
-        "space-infix-ops", SpaceInfixOps
+        "semi": SemiColon,
+        "space-infix-ops": SpaceInfixOps,
+        "quotes": SingleQuote
     }
 
 
