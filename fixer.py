@@ -96,13 +96,13 @@ class CommaSpacing(LintRule):
             return old_code_line.replace(' ,', ',')
 
 
-
 class SingleQuote(LintRule):
     def __init__(self, line: str):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
         return old_code_line.replace('"', "'")
+
 
 class SemiColon(LintRule):
     def __init__(self, line: str):
@@ -117,7 +117,7 @@ class SpaceInfixOps(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        pattern = r"\s*(={1,})\s*"
+        pattern = r"\s*(={1,})\s*|\s*([<>=]{1,})\s*"
 
         replacement = r" \1 "
 
