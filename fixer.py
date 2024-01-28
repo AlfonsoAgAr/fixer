@@ -133,6 +133,19 @@ class LinesAroundComment(LintRule):
         return old_code_line
 
 
+class ComplexityRuleComment(LintRule):
+    def __init__(self, line: str):
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+
+        ignore_msg = "\\ es-lint-disable-next-line complexity"
+
+        new_code_line = "\n" + ignore_msg + "\n" + old_code_line
+
+        return new_code_line
+
+
 class NotImplementeLintRule(LintRule):
     def __init__(self, line: str):
         super().__init__(line)
@@ -151,7 +164,8 @@ class RulerFactory:
         "comma-spacing": CommaSpacing,
         "semi": SemiColon,
         "space-infix-ops": SpaceInfixOps,
-        "quotes": SingleQuote
+        "quotes": SingleQuote,
+        "complexity": ComplexityRuleComment
     }
 
 
