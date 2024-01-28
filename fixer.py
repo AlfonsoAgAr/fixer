@@ -89,12 +89,7 @@ class CommaSpacing(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        pattern = r"[,](\S)"
-
-        replacement = r", \1"
-
-        return re.sub(pattern, replacement, old_code_line)
-        
+        return old_code_line.replace(',', ', ')
 
 class SingleQuote(LintRule):
     def __init__(self, line: str):
@@ -116,9 +111,9 @@ class SpaceInfixOps(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        pattern = r"\s*={1,}\s*"
+        pattern = r"\s*(={1,})\s*"
 
-        replacement = r" = "
+        replacement = r" \1 "
 
         return re.sub(pattern, replacement, old_code_line)
 
