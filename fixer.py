@@ -89,7 +89,13 @@ class CommaSpacing(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        return old_code_line.replace(',', ', ')
+        if "after" in self.message:
+            return old_code_line.replace(',', ', ')
+
+        elif "before" in self.message:            
+            return old_code_line.replace(',', ' ,')
+
+
 
 class SingleQuote(LintRule):
     def __init__(self, line: str):
