@@ -72,11 +72,17 @@ class ArrayBracketSpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        pattern = r"\[\s*(.*?)\s*\]"
+        old_code_line = re.sub(r"\{\s*\[", "{ [", old_code_line)
+        old_code_line = re.sub(r"\]\s*\}", "] }", old_code_line)
+        old_code_line = re.sub(r"\[\s*", "[ ", old_code_line)
+        old_code_line = re.sub(r"\s*\]", " ]", old_code_line)
 
-        replacement = r"[ \1 ]"
+        pattern_brackets = r"\[\s*((.|\s)*?)\s*\]"
 
-        return re.sub(pattern, replacement, old_code_line)
+        replacement_brackets = lambda m: "[ " + m.group(1).strip() + " ]"
+
+        return re.sub(pattern_brackets, replacement_brackets, old_code_line)
+
 
 class CommaSpacing(LintRule):
     def __init__(self, line: str):
