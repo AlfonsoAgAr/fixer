@@ -136,7 +136,7 @@ class ComplexityRuleComment(LintRule):
 
         ignore_msg = "// es-lint-disable-next-line complexity"
 
-        new_code_line = "\n" + ignore_msg + "\n" + old_code_line
+        new_code_line = ignore_msg + "\n" + old_code_line
 
         return new_code_line
 
