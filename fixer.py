@@ -92,8 +92,8 @@ class CommaSpacing(LintRule):
         if "after" in self.message:
             return old_code_line.replace(',', ', ')
 
-        elif "before" in self.message:            
-            return old_code_line.replace(',', ' ,')
+        elif "before" in self.message:
+            return old_code_line.replace(' ,', ',')
 
 
 
@@ -122,6 +122,22 @@ class SpaceInfixOps(LintRule):
         replacement = r" \1 "
 
         return re.sub(pattern, replacement, old_code_line)
+
+
+class SemiSpacing(LintRule):
+    def __init__(self, line: str):
+        self.space = " "
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+        pattern = r"[;](\S)"
+        num_spaces = len(old_code_line) - len(old_code_line.lstrip())
+        spaces = num_spaces * self.space
+        replacement = f";\n{spaces}"
+        replacement = replacement + r"\1"
+
+        return re.sub(pattern, replacement, old_code_line)
+
 
 class LinesAroundComment(LintRule):
     def __init__(self, line: str):
@@ -166,7 +182,8 @@ class RulerFactory:
         "semi": SemiColon,
         "space-infix-ops": SpaceInfixOps,
         "quotes": SingleQuote,
-        "complexity": ComplexityRuleComment
+        "complexity": ComplexityRuleComment,
+        "semi-spacing": SemiSpacing
     }
 
 
@@ -352,14 +369,12 @@ ascii_art_fixer = f"""
 if args.filename:
     FixerLogger.info(ascii_art_fixer)
 
-    time.sleep(2)
-
     start: float = time.time()
-    
+
     ### Execution
     fixer = Fixer(args.filename)
     fixer.fix()
-    
+
     ### Getting stats
     final: float = time.time() - start
     FixerLogger.info(f"Ejecución exitosa. Tiempo total: {final:.4f}s")
