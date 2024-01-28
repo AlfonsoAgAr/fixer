@@ -1,3 +1,9 @@
+/Users/idscomercial/Desktop/prueba/glomo-mx/app/composerMocksTpl/aboutInfo.js
+   32:15  error  Expected line before comment               lines-around-comment
+  207:18  error  Missing space before value for key 'bind'  key-spacing
+  210:18  error  Missing space before value for key 'bind'  key-spacing
+  213:18  error  Missing space before value for key 'bind'  key-spacing
+
 /Users/idscomercial/Desktop/prueba/glomo-mx/app/composerMocksTpl/aboutPage.js
    12:9   error  Identifier 'Glomo_Open_Document' is not in camel case  camelcase
   214:21  error  Missing space before value for key 'paramsUrl'         key-spacing
