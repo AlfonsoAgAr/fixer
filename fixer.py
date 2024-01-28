@@ -60,7 +60,7 @@ class KeySpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        old_code_line = re.sub(r":(?=\S)|:(\s{2,})", r": ")
+        old_code_line = re.sub(r":(?=\S)|:(\s{2,})", r": ", old_code_line)
 
         pattern = r"(\s):"
         replacement = r":"        
