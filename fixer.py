@@ -134,7 +134,7 @@ class ComplexityRuleComment(LintRule):
 
     def fix(self, old_code_line: str) -> str:
 
-        ignore_msg = "// es-lint-disable-next-line complexity"
+        ignore_msg = "// eslint-disable-next-line complexity"
 
         new_code_line = ignore_msg + "\n" + old_code_line
 
