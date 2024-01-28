@@ -102,7 +102,7 @@ class SingleQuote(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        return old_code_line.replace('"', "'")
+        return old_code_line.replace('"', "'").replace("`", "'")
 
 
 class SemiColon(LintRule):
