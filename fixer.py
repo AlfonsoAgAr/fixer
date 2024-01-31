@@ -73,16 +73,20 @@ class ArrayBracketSpacingRule(LintRule):
         super().__init__(line)
 
     def fix(self, old_code_line: str) -> str:
-        old_code_line = re.sub(r"\{\s*\[", "{ [", old_code_line)
-        old_code_line = re.sub(r"\]\s*\}", "] }", old_code_line)
-        old_code_line = re.sub(r"\[\s*", "[ ", old_code_line)
-        old_code_line = re.sub(r"\s*\]", " ]", old_code_line)
+        if "A space is required" in self.message:
+            old_code_line = re.sub(r"\{\s*\[", "{ [", old_code_line)
+            old_code_line = re.sub(r"\]\s*\}", "] }", old_code_line)
+            old_code_line = re.sub(r"\[\s*", "[ ", old_code_line)
+            old_code_line = re.sub(r"\s*\]", " ]", old_code_line)
 
-        pattern_brackets = r"\[\s*((.|\s)*?)\s*\]"
+            pattern_brackets = r"\[\s*((.|\s)*?)\s*\]"
 
-        replacement_brackets = lambda m: "[ " + m.group(1).strip() + " ]"
+            replacement_brackets = lambda m: "[ " + m.group(1).strip() + " ]"
 
-        return re.sub(pattern_brackets, replacement_brackets, old_code_line)
+            return re.sub(pattern_brackets, replacement_brackets, old_code_line)
+
+        elif "There should be no space" in self.message:
+            return old_code_line.replace('[ ', '[').replace(' ]', ']')
 
 
 class CommaSpacing(LintRule):
@@ -103,6 +107,14 @@ class SingleQuote(LintRule):
 
     def fix(self, old_code_line: str) -> str:
         return old_code_line.replace('"', "'").replace("`", "'")
+
+
+class SpaceInParents(LintRule):
+    def __init__(self, line: str):
+        super().__init__(line)
+
+    def fix(self, old_code_line: str) -> str:
+        return old_code_line.replace('( ', "(").replace(" )", ")")
 
 
 class SemiColon(LintRule):
@@ -184,7 +196,8 @@ class RulerFactory:
         "space-infix-ops": SpaceInfixOps,
         "quotes": SingleQuote,
         "complexity": ComplexityRuleComment,
-        "semi-spacing": SemiSpacing
+        "semi-spacing": SemiSpacing,
+        "space-in-parens": SpaceInParents
     }
 
 

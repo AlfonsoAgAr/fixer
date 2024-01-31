@@ -1,0 +1,899 @@
+glomo-mx/app/composerMocksTpl/account.js
+   3:18  error  Arrow function has a complexity of 13. Maximum allowed is 11        complexity
+   3:18  error  Arrow function has too many statements (57). Maximum allowed is 40  max-statements
+  13:25  error  'name' is already a global variable                                 no-shadow
+  14:27  error  'name' is already a global variable                                 no-shadow
+  23:9   error  'localStorage' is already a global variable                         no-shadow
+
+glomo-mx/app/composerMocksTpl/accountCreditCardPayment.js
+  13:25  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/accountTransactionDetail.js
+  38:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/addFundToContract.js
+     3:18  error  Arrow function has a complexity of 20. Maximum allowed is 11                                   complexity
+     3:18  error  Arrow function has too many statements (54). Maximum allowed is 40                             max-statements
+   103:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   393:7   error  Duplicate key 'className'                                                                      no-dupe-keys
+  2579:7   error  Duplicate key 'config'                                                                         no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/addFundToContractReview.js
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/addVideoSelfie.js
+  8:27  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  9:23  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/additionalCardDetail.js
+  11:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/analytics/_accountDetail.js
+  90:22  error  'operative' is already declared in the upper scope on line 90 column 9  no-shadow
+
+glomo-mx/app/composerMocksTpl/analytics/_carLoan.js
+  131:31  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/analytics/_cleanCardOperations.js
+  1:18  error  Arrow function has too many statements (47). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_codicelPeerToPeerSendPage.js
+  1:18  error  Arrow function has too many statements (53). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_creditBureau.js
+  65:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  66:37  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  67:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  68:30  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_creditCardTracking.js
+  23:6  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  26:6  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_emergencyReports.js
+  5:26  error  'featureFlag' is already declared in the upper scope on line 2 column 9      no-shadow
+  6:31  error  'featureFlagsSos' is already declared in the upper scope on line 5 column 7  no-shadow
+
+glomo-mx/app/composerMocksTpl/analytics/_equityDetail.js
+  15:54  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  16:84  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  17:88  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  18:93  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_glomo-analytics-manager.js
+  25:61  error  'name' is already a global variable                                                            no-shadow
+  39:67  error  'name' is already a global variable                                                            no-shadow
+  67:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  68:33  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  69:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_kycValidation.js
+  33:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  38:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  44:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  50:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  57:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  64:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  71:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  78:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  85:8  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_landing.js
+  1:18  error  Arrow function has too many statements (51). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_landingPublic.js
+  1:18  error  Arrow function has too many statements (48). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_ocMetaseguraOffer.js
+  130:46  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/analytics/_pfm.js
+  2:18  error  Arrow function has too many statements (52). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_redirectCallMeBack.js
+  7:29  error  'featureFlag' is already declared in the upper scope on line 5 column 20  no-shadow
+
+glomo-mx/app/composerMocksTpl/analytics/_reward.js
+  18:18  error  Arrow function has too many statements (92). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_standInAlwaysOn.js
+  52:14  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  54:14  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  56:14  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_travelInsurance.js
+  1:18  error  Arrow function has too many statements (41). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/analytics/_unitLinked.js
+  21:6  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  24:6  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  27:6  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  31:6  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/analytics/_updateNationalId.js
+   98:28  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   99:38  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  100:36  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  101:32  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/apps.js
+  11:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/assistanceSection.js
+  3:18  error  Arrow function has a complexity of 13. Maximum allowed is 11                                   complexity
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  7:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/atmLocator.js
+    5:9   error  'localStorage' is already a global variable                                                    no-shadow
+    9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  862:13  error  Duplicate key 'global_alert_manager_open_with_settings'                                        no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/billPayments.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/billPaymentsDashboard.js
+     5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  1380:11  error  Duplicate key 'close_control_veil'                                                             no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/billPaymentsSuccess.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/blackhawkAnswer.js
+  8:25  error  'name' is already a global variable  no-shadow
+  9:27  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/blackhawkAnswerDetail.js
+  8:25  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/blackhawkInformation.js
+  8:25  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/blackhawkPurchase.js
+   8:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  12:25  error  'name' is already a global variable                                                            no-shadow
+  13:27  error  'name' is already a global variable                                                            no-shadow
+  15:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/blackhawkPurchaseDetail.js
+   3:18  error  Arrow function has too many statements (47). Maximum allowed is 40  max-statements
+  10:25  error  'name' is already a global variable                                 no-shadow
+  11:27  error  'name' is already a global variable                                 no-shadow
+
+glomo-mx/app/composerMocksTpl/blackhawkPurchaseReview.js
+  10:25  error  'name' is already a global variable  no-shadow
+  11:27  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/blackhawkWelcome.js
+  8:25  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/businessAccountInfo.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/carLoan.js
+  31:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/carLoanSuccessPage.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/cardDetail.js
+  11:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/cardGenerateVirtual.js
+  11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/cardGenerateVirtualReview.js
+  11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/cardTransactionDetail.js
+  3:18  error  Arrow function has too many statements (59). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/cardlessWithdrawal.js
+   2:18  error  Arrow function has too many statements (41). Maximum allowed is 40  max-statements
+  10:25  error  'name' is already a global variable                                 no-shadow
+  11:27  error  'name' is already a global variable                                 no-shadow
+  16:9   error  'localStorage' is already a global variable                         no-shadow
+  22:3   error  Split 'const' declarations into multiple statements                 one-var
+
+glomo-mx/app/composerMocksTpl/cardlessWithdrawalHistoric.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/cardlessWithdrawalReview.js
+  12:25  error  'name' is already a global variable          no-shadow
+  13:27  error  'name' is already a global variable          no-shadow
+  17:9   error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/chat.js
+   6:9  error  'page' is already a global variable          no-shadow
+  11:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/chatWelcome.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/checksDeposits.js
+    9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  900:13  error  Duplicate key 'checks_deposits_analytics_invalid_check'                                        no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/checksDepositsCheckAggregator.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/checksDepositsList.js
+  404:15  error  Duplicate key 'global_retry_error'  no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/checksDepositsPhotos.js
+  7:9   error  'localStorage' is already a global variable                                                    no-shadow
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/checksDepositsReview.js
+  11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/checksManagement.js
+  538:13  error  Duplicate key 'checks_management_reset_steps'  no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/checksManagementCancelReview.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/checksManagementDetail.js
+   14:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  423:7   error  Duplicate key 'acceptRetry'                                                                    no-dupe-keys
+  427:7   error  Duplicate key 'cancelRetry'                                                                    no-dupe-keys
+  428:7   error  Duplicate key 'finishRetry'                                                                    no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/checksManagementList.js
+    7:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  188:11  error  Duplicate key 'skeletonItems'                                                                  no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/checksSection.js
+  9:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/clarificationsListCare.js
+   4:7   error  'page' is already a global variable  no-shadow
+  11:19  error  'name' is already a global variable  no-shadow
+  12:23  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/clarificationsTrackingCare.js
+   4:7   error  'page' is already a global variable  no-shadow
+  11:19  error  'name' is already a global variable  no-shadow
+  12:23  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/codicelAgreeAndRemoveConsent.js
+   4:7   error  'page' is already a global variable                                                            no-shadow
+  14:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  17:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/codicelPeerToPeerSend.js
+   4:7   error  'page' is already a global variable                                                            no-shadow
+  11:18  error  Arrow function has too many statements (53). Maximum allowed is 40                             max-statements
+  19:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  26:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/codicelPeerToPeerTransferReview.js
+   4:7  error  'page' is already a global variable          no-shadow
+  10:7  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/common/_channel-utils.js
+  24:27  error  'page' is already a global variable   no-shadow
+  52:53  error  'event' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/common/_cross-components.js
+  2142:11  error  Duplicate key 'global_glomo_alert_manager_modal_closed_check_management_service_terms_reject'  no-dupe-keys
+  2243:11  error  Duplicate key 'funds_withdrawal_cancel_modal'                                                  no-dupe-keys
+  2742:11  error  Duplicate key 'global_alert_modal_close'                                                       no-dupe-keys
+  2850:11  error  Duplicate key 'global_check_deposits_photos_setting_accept'                                    no-dupe-keys
+  4092:38  error  'toastSnackBarGeneralParamsSuccess' is already declared in the upper scope on line 8 column 9  no-shadow
+  4675:5   error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/common/_redirectCallMeBack.js
+  49:29  error  'name' is already a global variable  no-shadow
+  52:27  error  'name' is already a global variable  no-shadow
+  82:29  error  'name' is already a global variable  no-shadow
+  85:27  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/common/_sign-connector.js
+    4:9   error  'localStorage' is already a global variable  no-shadow
+  105:23  error  'event' is already a global variable         no-shadow
+
+glomo-mx/app/composerMocksTpl/common/helpers/_utils.js
+  555:28  error  'page' is already a global variable  no-shadow
+  933:35  error  'name' is already a global variable  no-shadow
+  936:34  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/configureProductsPage.js
+  5:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/contractPaymentExisting.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/contractPaymentExistingModal.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/creditBureau.js
+   4:7   error  'page' is already a global variable          no-shadow
+  10:19  error  'name' is already a global variable          no-shadow
+  11:23  error  'name' is already a global variable          no-shadow
+  13:7   error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/creditBureauReceipt.js
+   4:7   error  'page' is already a global variable  no-shadow
+  11:19  error  'name' is already a global variable  no-shadow
+  12:23  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/creditCardHolder.js
+   12:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  554:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  558:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  562:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  566:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  570:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/creditCardHolderReview.js
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/curpPage.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/deposit.js
+  3:18  error  Arrow function has too many statements (46). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/depositConfiguration.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/depositHiring.js
+  1108:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/depositSale.js
+   4:7   error  'page' is already a global variable                                                            no-shadow
+  17:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/depositSaleReview.js
+   4:7   error  'page' is already a global variable                                                            no-shadow
+  18:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/depositsPurchase.js
+  23:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/depositsPurchaseReview.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/deviceInsurance.js
+   4:18  error  Arrow function has too many statements (48). Maximum allowed is 40                             max-statements
+  13:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/deviceInsuranceSuccess.js
+  15:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/digitalActivation.js
+     3:18  error  Arrow function has a complexity of 22. Maximum allowed is 11                                   complexity
+     3:18  error  Arrow function has too many statements (89). Maximum allowed is 40                             max-statements
+     9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+    10:32  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+    26:33  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  2851:3   error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/digitalActivationCall.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/disabilityVideocallHearingTactical.js
+  7:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/disabilityVideocallHearingTacticalCalling.js
+  8:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/disabilityVideocallHearingTacticalPutAttention.js
+  7:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/discreetModeSettings.js
+  7:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/dynamicLifeInsuranceAddBeneficiaryPage.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/dynamicLifeInsuranceEditPercentagePage.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/dynamicLifeInsuranceMainPage.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/dynamicLifeInsuranceNewAddressPage.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/dynamicLifeInsuranceOfferPage.js
+  3:18  error  Arrow function has too many statements (48). Maximum allowed is 40                             max-statements
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/dynamicLifeInsuranceSuccess.js
+  205:7  error  Redundant double negation  no-extra-boolean-cast
+
+glomo-mx/app/composerMocksTpl/editCreditCardLimits.js
+  11:42  error  ["additional_card_detail_navigation_to_card_balance_limit_update"] is better written in dot notation  dot-notation
+
+glomo-mx/app/composerMocksTpl/emergencyReports.js
+  3:18  error  Arrow function has a complexity of 14. Maximum allowed is 11                                   complexity
+  3:18  error  Arrow function has too many statements (43). Maximum allowed is 40                             max-statements
+  6:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  8:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/emergencyTrackingReports.js
+  3:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/equityContractsContribution.js
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/equityContractsContributionSuccess.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/equityContractsWithdrawal.js
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/equityContractsWithdrawalSuccess.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/fatcaValidation.js
+    7:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  539:57  error  ["signature_handle_required_first_step"] is better written in dot notation                     dot-notation
+
+glomo-mx/app/composerMocksTpl/fatcaValidationResidenceForm.js
+  7:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/feedback.js
+  9:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/filteredPoints.js
+  10:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/financeTransactionMultipurchase.js
+   13:9   error  'localStorage' is already a global variable                                                    no-shadow
+   18:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  669:9   error  'page' is already a global variable                                                            no-shadow
+
+glomo-mx/app/composerMocksTpl/financeTransactionMultipurchaseReview.js
+  13:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/financialHealthPushAdvice.js
+  12:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/financingPurchase.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/fund.js
+  3:18  error  Arrow function has too many statements (47). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/fundsHiring.js
+  9:18  error  Arrow function has a complexity of 18. Maximum allowed is 11        complexity
+  9:18  error  Arrow function has too many statements (55). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/goals.js
+    7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  502:7   error  Redundant double negation                                                                      no-extra-boolean-cast
+
+glomo-mx/app/composerMocksTpl/help.js
+   13:9   error  'localStorage' is already a global variable                    no-shadow
+  271:66  error  ["global_open_native_menu"] is better written in dot notation  dot-notation
+
+glomo-mx/app/composerMocksTpl/helpSectionDetail.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/inAppCrmPage.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/insuranceCancelationRequest.js
+   8:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  14:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/insuranceCoupons.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/interestSimulator.js
+   7:9  error  'page' is already a global variable          no-shadow
+  10:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/internationalTransfers.js
+   6:18  error  Arrow function has too many statements (45). Maximum allowed is 40  max-statements
+  17:9   error  'localStorage' is already a global variable                         no-shadow
+
+glomo-mx/app/composerMocksTpl/internationalTransfersSuccess.js
+  215:5  error  Duplicate key 'tag'  no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/investmentsFollowUp.js
+  7:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/investmentsFollowUpDistribution.js
+  7:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/invitationNonAccountClient.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/kycValidation.js
+  6:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/landingSettings.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/loading.js
+  5:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/loan.js
+  19:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/lockCardsPage.js
+    4:7   error  'page' is already a global variable                                                            no-shadow
+   11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  192:21  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/login.js
+  14:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/mixCreditCardAndLoan.js
+  3:18  error  Arrow function has too many statements (79). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/mobileTopUp.js
+  2:18  error  Arrow function has too many statements (57). Maximum allowed is 40                             max-statements
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/mobileTopUpReview.js
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/mortgageCertificateCancellationSuccess.js
+  4:9   error  'page' is already a global variable                                                            no-shadow
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/mortgageCertificateReview.js
+  3:18  error  Arrow function has too many statements (42). Maximum allowed is 40                             max-statements
+  4:9   error  'page' is already a global variable                                                            no-shadow
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/myConversationChatPage.js
+   9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  11:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/myConversationMessagePage.js
+   8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  11:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/myConversationSearchPage.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/myConversationThemePage.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/noClientBusinessDebitCardInfo.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/nonPreApprovedConsumerLoan.js
+  9:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/nonPreApprovedConsumerLoanBureau.js
+  11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/nonPreApprovedCreditCard.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/nonPreApprovedCreditCardBureau.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/notificationManager.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/notificationsCenter.js
+  10:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  16:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/notificationsList.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  12:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  16:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/notificationsListSearch.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/notificationsListSearchResult.js
+  10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/ocLoanOfferPage.js
+  9:18  error  Arrow function has too many statements (50). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/ocMetaseguraOffer.js
+   3:18  error  Arrow function has a complexity of 14. Maximum allowed is 11                                   complexity
+  11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/ocMetaseguraOfferSuccess.js
+  11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/ocTopCreditCard.js
+    6:27  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+    7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   17:9   error  'localStorage' is already a global variable                                                    no-shadow
+  259:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  263:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  267:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  271:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/operationalLimits.js
+   8:23  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  14:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/payrollPortability.js
+    8:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   14:9   error  'localStorage' is already a global variable                                                    no-shadow
+  850:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  854:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  858:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  862:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  866:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/payrollPortabilityListPage.js
+  8:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/pfmDashboard.js
+  12:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/pfmaggregation.js
+  3:18  error  Arrow function has too many statements (43). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/pocketsAddMoney.js
+    6:9   error  'page' is already a global variable                                                            no-shadow
+   10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  541:7   error  Duplicate key 'hideCustomFeesMessage'                                                          no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/pocketsCreate.js
+    6:9   error  'page' is already a global variable                                                            no-shadow
+    8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  605:7   error  Duplicate key 'hideCustomFeesMessage'                                                          no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/pocketsDetail.js
+   5:9   error  'page' is already a global variable                                                            no-shadow
+  13:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/pocketsEdit.js
+  6:9   error  'page' is already a global variable                                                            no-shadow
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/pocketsList.js
+  6:9   error  'page' is already a global variable                                                            no-shadow
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/pocketsMovementsList.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/pocketsOrder.js
+  5:9   error  'page' is already a global variable                                                            no-shadow
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/pocketsSuccess.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/pocketsWelcome.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/pocketsWithdrawal.js
+    6:9   error  'page' is already a global variable                                                            no-shadow
+   10:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  566:7   error  Duplicate key 'hideCustomFeesMessage'                                                          no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/poisDetail.js
+  4:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/product/_monthly-statement.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/product/_product-more-info.js
+  13:36  error  'PRODUCT' is already declared in the upper scope on line 3 column 18  no-shadow
+  98:25  error  'COUNTRY' is already declared in the upper scope on line 7 column 9   no-shadow
+  98:34  error  'PRODUCT' is already declared in the upper scope on line 3 column 18  no-shadow
+
+glomo-mx/app/composerMocksTpl/product/_product-transactions.js
+  11:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/profile.js
+  23:9   error  'localStorage' is already a global variable                           no-shadow
+  40:32  error  'COUNTRY' is already declared in the upper scope on line 22 column 9  no-shadow
+  52:27  error  'COUNTRY' is already declared in the upper scope on line 22 column 9  no-shadow
+  58:35  error  'COUNTRY' is already declared in the upper scope on line 22 column 9  no-shadow
+  64:34  error  'COUNTRY' is already declared in the upper scope on line 22 column 9  no-shadow
+  70:40  error  'COUNTRY' is already declared in the upper scope on line 22 column 9  no-shadow
+
+glomo-mx/app/composerMocksTpl/rechargeTag.js
+    3:7   error  'page' is already a global variable                                                            no-shadow
+  839:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  843:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  847:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  851:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  855:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  859:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  863:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/recipientsInit.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/redirectCallMeBack.js
+  35:7  error  Duplicate key 'extraHeaderClass'  no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/refunds.js
+   10:19  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  200:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  205:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  210:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  418:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  423:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  428:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  433:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  438:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/refundsReview.js
+   10:26  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  253:36  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/registerInfoTag.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/registerTag.js
+    6:18  error  Arrow function has too many statements (42). Maximum allowed is 40                             max-statements
+  455:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  471:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  475:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  479:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  483:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  487:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  491:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  495:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  499:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  503:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  507:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  511:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  515:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  519:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  523:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/requestBranchAppointment.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/requestBranchAppointmentDetail.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/requestBranchAppointmentSuccess.js
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/reuseOperationsBillPayments.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/reuseOperationsTransfers.js
+    2:18  error  Arrow function has too many statements (155). Maximum allowed is 40    max-statements
+  280:3   error  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+glomo-mx/app/composerMocksTpl/reward.js
+  5:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/rewardOriginCardPage.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/searchPlace.js
+  7:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/securityTipsGlossaryPage.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/securityTipsPage.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/settings.js
+  12:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/smartAssistant.js
+  10:9   error  'localStorage' is already a global variable                                                    no-shadow
+  19:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/stEnrollment.js
+  49:27  error  ["global_landing_page_manager_next_flow"] is better written in dot notation  dot-notation
+  58:29  error  ["native_user_id"] is better written in dot notation                         dot-notation
+
+glomo-mx/app/composerMocksTpl/stEnrollmentError.js
+  38:26  error  ["global_landing_page_manager_next_flow"] is better written in dot notation  dot-notation
+  41:34  error  ["global_landing_page_manager_next_flow"] is better written in dot notation  dot-notation
+
+glomo-mx/app/composerMocksTpl/stEnrollmentSuccess.js
+  38:26  error  ["global_landing_page_manager_next_flow"] is better written in dot notation  dot-notation
+  41:34  error  ["global_landing_page_manager_next_flow"] is better written in dot notation  dot-notation
+
+glomo-mx/app/composerMocksTpl/storesMap.js
+  4:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/sustainability.js
+   5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   6:29  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  10:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/sustainabilityGlossary.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/sustainabilityNews.js
+  6:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/sustainabilityNewsDetail.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/sustainabilityPublic.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  9:9   error  'localStorage' is already a global variable                                                    no-shadow
+
+glomo-mx/app/composerMocksTpl/tagCardList.js
+   18:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  571:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  575:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  579:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/toggleCardsPage.js
+    8:31  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  238:15  error  Duplicate key 'global_alert_manager_open_with_settings'                                        no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/transfers.js
+    11:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+   249:13  error  Duplicate key 'EXIT_TRANSFERS_PAGE_ACCEPT'                                                     no-dupe-keys
+   258:13  error  Duplicate key 'cancel_out_of_schedule_alert'                                                   no-dupe-keys
+   517:28  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  1839:3   error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  1841:3   error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  1846:3   error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/transfersSuccess.js
+    5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  346:13  error  Duplicate key 'PREPARE_TRANSFERS_TO_EXIT'                                                      no-dupe-keys
+
+glomo-mx/app/composerMocksTpl/travelInsurance.js
+  27:11  error  'name' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/updateAddressOptionsPage.js
+  6:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/updateAddressPage.js
+  5:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/updateAddressStepInputPage.js
+   4:7   error  'page' is already a global variable                                                            no-shadow
+  16:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/updateAddressSuccessPage.js
+  5:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/updateAddressUploadFilesPage.js
+  6:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/updateEmailPage.js
+  4:9   error  'page' is already a global variable                                                            no-shadow
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/updateNationalId.js
+   3:18  error  Arrow function has too many statements (44). Maximum allowed is 40                             max-statements
+  15:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  30:33  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+  48:34  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/updateNationalIdSuccess.js
+  13:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/upgradeAccountCustomerDataPage.js
+  3:18  error  Arrow function has a complexity of 13. Maximum allowed is 11        complexity
+  3:18  error  Arrow function has too many statements (60). Maximum allowed is 40  max-statements
+
+glomo-mx/app/composerMocksTpl/validateEmailPage.js
+  4:9   error  'page' is already a global variable                                                            no-shadow
+  8:25  error  A function with a name starting with an uppercase letter should only be used as a constructor  new-cap
+
+glomo-mx/app/composerMocksTpl/validatedEmailSuccess.js
+  4:9  error  'page' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/welcome.js
+  8:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/composerMocksTpl/whatsNewSlider.js
+  15:9  error  'localStorage' is already a global variable  no-shadow
+
+glomo-mx/app/config/mx/base/_preProd.js
+  6:1  error  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+glomo-mx/app/config/mx/base/_test.js
+  6:1  error  Expected an assignment or function call and instead saw an expression  no-unused-expressions
+
+glomo-mx/app/elements/cells-ios-keyboard-manager/cells-ios-keyboard-manager.js
+  11:18  error  'event' is already a global variable  no-shadow
